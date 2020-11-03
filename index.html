@@ -1,4 +1,16 @@
-<form action="{{ url_for('predict')}}" method="post">
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div style="color:blue">
+            <form action="{{ url_for('predict')}}" method="post">
 
             <h2>Predictive analysis</h2>
             
@@ -35,5 +47,16 @@
             <br><br>
             
             <button id="sub" type="submit ">Calculate the Selling Price</button>
+         </form>
+         
+       <br><br><h3>{{ prediction_text }}<h3>
+   </div>
+                
+  </body>
+
+</html>
+
             
-</form>
+
+                
+             
