@@ -33,10 +33,10 @@ def predict():
         
         Fuel_Type_Petrol=request.form['Fuel_Type_Petrol']
         if(Fuel_Type_Petrol=='Petrol'):
-                Fuel_Type_Petrol=1
-                Fuel_Type_Diesel=0
+            Fuel_Type_Petrol=1
+            Fuel_Type_Diesel=0
                 
-        elif(Fuel_Type_Petrol=='Diesel'): :
+        elif(Fuel_Type_Petrol=='Diesel'): 
             Fuel_Type_Petrol=0
             Fuel_Type_Diesel=1
             
